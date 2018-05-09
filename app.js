@@ -11,9 +11,7 @@ var app = express();
 
 mongoose.Promise = global.Promise;
 
-//Adds connection to database using mongoose
-//for <dbuser>:replace with your username, <dbpassword>: replace with your password.
-//<DATABASE_URL>: replace with database url, example:ds234562.mlab.com:17283
+
 mongoose.connect('xiong1pin:xiong1pin#@ds255767.mlab.com:55767/user_appointments', {
   useMongoClient: true
 });
